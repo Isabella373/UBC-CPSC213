@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A10/a11code'
+ 
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread.o uthreads/uthread.c
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread_mutex_cond.o uthreads/uthread_mutex_cond.c
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread_sem.o uthreads/uthread_sem.c
+cc -g -std=gnu11 -I./uthreads  -pthread  traffic.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o traffic
+cc -g -std=gnu11 -I./uthreads  -pthread  traffic_sem.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o traffic_sem
+make: Leaving directory '/home/y/yizhangl/cs213/A10/a11code'
+ 
+make: *** No rule to make target 'SearchFileContents.java', needed by 'SearchFileContents.class'.
+

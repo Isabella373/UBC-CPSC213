@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A9/Q5/code'
+cc -std=gnu11 -g   -c -o aRead.o aRead.c
+cc -std=gnu11 -g   -c -o disk.o disk.c
+cc -std=gnu11 -g   -c -o queue.o queue.c
+cc -std=gnu11 -g   -c -o uthread.o uthread.c
+cc -pthread  aRead.o disk.o queue.o uthread.o   -o aRead
+make: Leaving directory '/home/y/yizhangl/cs213/A9/Q5/code'
+ 

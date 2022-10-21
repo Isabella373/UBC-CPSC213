@@ -1,0 +1,306 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'SearchFileContents.java', needed by 'SearchFileContents.class'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Oct 19 20:12:24 2022
+
+# Variables
+
+# environment
+WEBBROWSER = firefox
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/y/yizhangl/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 5)
+JUNKF = $(OBJS)
+# environment
+FIGNORE = .o:.class
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/y/yizhangl/cs213/A10/a11code
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/y/yizhangl/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node
+# 'override' directive (from 'Makefile', line 8)
+CFLAGS = -g -std=gnu11 -I$(UTHREAD)
+# environment
+XDG_CONFIG_DIRS = /cs/local/generic/share/xfce/xdg:/cs/local/generic/share/xfce/xdg:
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /cs/local/generic/share/xfce/share:/cs/local/generic/share/xfce/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/2956126/bus
+# makefile (from 'Makefile', line 4)
+OBJS = $(UTHREAD)/uthread.o $(UTHREAD)/uthread_mutex_cond.o $(UTHREAD)/uthread_sem.o
+# environment
+INFOPATH = /cs/local/generic/info:/usr/local/info:/usr/info:/usr/share/info:.
+# environment
+VSCODE_CWD = /home/y/yizhangl
+# environment
+SSH_CONNECTION = 128.189.24.73 58707 198.162.33.37 22
+# environment
+PATH = /home/y/yizhangl/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/cs/local/bin:/cs/local/generic/bin:/cs/local/bin/pbm+:/bin:/usr/ucb:/usr/bin:/home/y/yizhangl/bin:/home/y/yizhangl/bin/ix64linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/usr/games:/usr/local/games:/snap/bin:/var/cfengine/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/2956126
+# environment
+BASH_ENV = /home/y/yizhangl/.bashrc
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/2956126/vscode-ipc-aac09be4-360c-4b6a-bb50-372ca2323565.sock
+# 'override' directive (from 'Makefile', line 12)
+LDFLAGS = -pthread
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XAPPLRESDIR = /cs/local/generic/lib/X11/app-defaults
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 1)
+UTHREAD = ./uthreads
+# environment
+PWD = /home/y/yizhangl/cs213/A10/a11code
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = :/var/cfengine/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+EXINIT = set nu showmode showmatch exrc
+# environment
+HOME = /home/y/yizhangl
+# environment
+LOGNAME = yizhangl
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# 'override' directive (from 'Makefile', line 16)
+JFLAGS = -g
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+JDK_JAVA_OPTIONS = -Xmx500m
+# makefile (from 'Makefile', line 6)
+JUNKD = *.dSYM *~
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+XDG_SESSION_ID = 63810
+# environment
+USER = yizhangl
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 10)
+UNAME = $(shell uname)
+# environment
+CLASSPATH = .
+# makefile (from 'Makefile', line 15)
+JC = javac
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CS_MACH = ix64linux
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 2)
+TARGETS = traffic traffic_sem
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 128.189.24.73 58707 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/y/yizhangl/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh
+# environment
+CS_BSD = 1
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+CS_UNIX = bsd
+# environment
+PS1 = \u@\h:\W$ 
+# environment
+EDITOR = vi
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=88/1024=9%, Rehash=0, Collisions=14/126=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 54, inode 23586232004): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+traffic: uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 20:37:21.98718
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+SearchFileContents.java:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: traffic traffic_sem SearchFileContents.class
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 14:10:41.788061
+#  File has been updated.
+#  Successfully updated.
+
+traffic_sem: uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 20:37:22.067557
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uthreads/uthread.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 20:37:21.832069
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	-rm -f $(JUNKF) $(TARGETS)  SearchFileContents.class
+
+# Not a target:
+uthreads/uthread_sem.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 20:37:21.905348
+#  File has been updated.
+#  Successfully updated.
+
+tidy: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	rm -rf $(JUNKD)
+
+SearchFileContents.class: SearchFileContents.java
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	$(JC) $(JFLAGS) $^
+
+# Not a target:
+uthreads/uthread_mutex_cond.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 20:37:21.872729
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 279 B / avg = 12 B
+# current buf: size = 8162 B / used = 279 B / count = 22 / avg = 12 B
+
+# strcache performance: lookups = 39 / hit rate = 43%
+ 
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Wed Oct 19 20:12:24 2022
+
+ 

@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A5/code'
+gcc -g -std=gnu11 -Og -Wall -Wno-unused-function   -c -o main.o main.c
+gcc -g -std=gnu11 -Og -Wall -Wno-unused-function   -c -o myheap.o myheap.c
+gcc   main.o myheap.o   -o main
+make: Leaving directory '/home/y/yizhangl/cs213/A5/code'
+ 

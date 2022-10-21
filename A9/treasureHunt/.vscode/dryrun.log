@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A9/treasureHunt'
+cc -std=gnu11 -g   -c -o treasureHunt.o treasureHunt.c
+cc -std=gnu11 -g   -c -o disk.o disk.c
+cc -std=gnu11 -g   -c -o queue.o queue.c
+cc -std=gnu11 -g   -c -o uthread.o uthread.c
+cc -pthread  treasureHunt.o disk.o queue.o uthread.o   -o treasureHunt
+make: Leaving directory '/home/y/yizhangl/cs213/A9/treasureHunt'
+ 

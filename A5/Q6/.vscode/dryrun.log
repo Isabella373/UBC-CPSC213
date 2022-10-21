@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A5/Q6'
+cc -std=gnu11 -I..   -c -o main.o main.c
+cc -std=gnu11 -I..   -c -o list.o list.c
+cc -std=gnu11 -I..   -c -o tree.o tree.c
+cc -std=gnu11 -I..   -c -o element.o element.c
+cc -std=gnu11 -I..   -c -o refcount.o refcount.c
+cc   main.o list.o tree.o element.o refcount.o   -o main
+make: Leaving directory '/home/y/yizhangl/cs213/A5/Q6'
+ 

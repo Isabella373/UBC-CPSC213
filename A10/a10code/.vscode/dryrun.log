@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/y/yizhangl/cs213/A10/a10code'
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread.o uthreads/uthread.c
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread_mutex_cond.o uthreads/uthread_mutex_cond.c
+cc -g -std=gnu11 -I./uthreads   -c -o uthreads/uthread_sem.o uthreads/uthread_sem.c
+cc -g -std=gnu11 -I./uthreads  -pthread  q1.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o q1
+cc -g -std=gnu11 -I./uthreads  -pthread  q2.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o q2
+cc -g -std=gnu11 -I./uthreads  -pthread  q3.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o q3
+cc -g -std=gnu11 -I./uthreads  -pthread  q4.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o q4
+cc -g -std=gnu11 -I./uthreads  -pthread  smoke.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o smoke
+cc -g -std=gnu11 -I./uthreads  -pthread  phil-rightfork.c uthreads/uthread.o uthreads/uthread_mutex_cond.o uthreads/uthread_sem.o   -o phil-rightfork
+make: Leaving directory '/home/y/yizhangl/cs213/A10/a10code'
+ 
